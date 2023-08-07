@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safar</title>
+    <title>Safar My account</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <!-- start navbar -->
     <nav class="navbar">
+        <!-- navbar-left -->
         <div class="navbar-left">
             <!-- في الجهه اليسار راح يكون فيه لوقو والبحث -->
             <a href="index.html" class="logo"><img src="Image/logo.png"></a>
@@ -16,20 +20,122 @@
                 <input type="text" placeholder="search">
             </div>
         </div>
+        <!-- navbar-center -->
         <div class="navbar-center">
             <ul>
                 <!-- ايقونات القائمة-->
-                <li><a href="#" class="active-link"><img src="Image/home.png"><span>الرئسية</span></a></li>
-                <li><a href="#"><img src="Image/user.png"><span>صفحتي</span></a></li>
-                <li><a href="#"><img src="Image/chat.png"><span>رسائل</span></a></li>
-                <li><a href="#"><img src="Image/bell.png"><span>إشعارات</span></a></li>
+                <li><a href="#" class="active-link"><img src="Image/user.png"><span>My account</span></a></li>
+                <li><a href="#"><img src="Image/home.png"><span>Home</span></a></li>
+                <li><a href="#"><img src="Image/chat.png"><span>chat</span></a></li>
+                <li><a href="#"><img src="Image/bell.png"><span>notifications</span></a></li>
             </ul>
         </div>
+        <!-- navbar-right -->
         <div class="navbar-right">
             <div class="online">
-            <img src="Image/woman.png" class="nav-profile-img">
+                <img src="Image/woman.png" class="nav-profile-img">
             </div>
         </div>
     </nav>
+    <!-- navbar end -->
+
+    
+    <div class="container">
+        <!-- left-sidebar -->
+        <div class="left-sidebar">
+            <div class="sidebar-profile-box">
+                <img class="img-profile" src="Image/IMG_2.jpg" width="100%">
+                <div class="sidebar-profile-info">
+                    <img src="Image/woman.png">
+                    <h1>Fatima Altamimi</h1>
+                    <h3>A traveler who loves to travel</h3>
+                    <ul>
+                        <li>The number of your posts<span>0</span></li>
+                        <li>Your post views<span>0</span></li>
+                    </ul>
+                </div>
+                <div class="sidebar-profile-link">
+                    <a href="#"><img src="Image/destination.png">my travels</a>
+                </div>
+            </div>
+            <div class="sidebar-activity">
+                <h3>Latest updates</h3>
+                <a href="#"><img src="Image/history.png">Türkiye trip</a>
+
+                <h3>Hashtag</h3>
+                <a href="#"><img src="Image/hashtag.png">Türkiye trip</a>
+
+                <div class="discover-more-link">
+                    <a href="#">Find out more</a>
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- main-content -->
+        <div class="main-content">
+            
+            <div class="create-post">
+                <div class="create-post-input">
+                    <img src="Image/woman.png">
+                    <textarea rows="2" placeholder="Write a post"></textarea>
+                </div>
+                <div class="create-post-link">
+                    <li><img src="Image/plan.png">Add Activities</li>
+                    <li><img src="Image/directions.png" alt="">Add post</li>
+                </div>
+            </div>
+            <div class="sort-by">
+                <hr>
+                <p>Sort by: <span>top <img src="Image/down-arrow.png"></span></p>
+            </div>
+            <div class="post">
+                <div class="post-auther">
+
+                </div>
+            </div>
+
+        </div>
+        
+        <!-- right-sidebar -->
+        <div class="right-sidebar">
+            <div class="sidebar-news">
+                <img src="Image/newspaper.png" class="info-icon">
+                <h3>News</h3>
+                <a href="#">Exempting all Saudi citizens from obtaining a visa to enter Singapore</a>
+                <span>Posted on: Apr 29, 2023: 04:28 PM GST</span>
+
+
+                <a href="#" class="read-more-link">Read More</a>
+            </div>
+            <div class="sidebar-ad">
+                <small>Ads &middot; &middot;</small>
+                <p>It includes advertisements for tourism companies, hotel offers and car rental prices</p>
+                <div>
+                    <img src="Image/mobile.png">
+                    <img src="Image/online-booking.png">
+                    <img src="Image/web-browser.png">
+                </div>
+                <a href="#" class="ad-link">See more</a>
+            </div>
+
+            <div class="sidebar-useful-links">
+                <a href="#">About</a>
+                <a href="#">Accessiblity</a>
+                <a href="#">Help Center</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Advertising</a>
+                <a href="#">More</a>
+
+                <div class="copyright-msg">
+                    <img src="Image/logo.png">
+                    <p>Safar &#169; 2023. All rights are save</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
 </body>
+
 </html>
