@@ -16,3 +16,7 @@ The HTML markup utilizes div elements with specific class names to structure the
 In summary, the code generates an aesthetically pleasing left sidebar layout for a web page, showcasing profile information, activity updates, and links related to travels. The CSS styles contribute to the overall appearance and formatting of the sidebar.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class="main-content"
+the code creates a visually appealing main content section for a web page, incorporating features for creating posts, sorting options, and displaying individual posts. The CSS styles enhance the presentation and aesthetics of the elements within the main content section.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
