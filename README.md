@@ -20,3 +20,7 @@ class="main-content"
 the code creates a visually appealing main content section for a web page, incorporating features for creating posts, sorting options, and displaying individual posts. The CSS styles enhance the presentation and aesthetics of the elements within the main content section.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+class="right-sidebar"
+the code creates a right sidebar section for a web page, including news, advertisements, useful links, and a copyright message. The CSS styles enhance the visual presentation and formatting of the elements within the right sidebar section.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
