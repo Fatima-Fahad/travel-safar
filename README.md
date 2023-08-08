@@ -23,4 +23,46 @@ the code creates a visually appealing main content section for a web page, incor
 class="right-sidebar"
 the code creates a right sidebar section for a web page, including news, advertisements, useful links, and a copyright message. The CSS styles enhance the visual presentation and formatting of the elements within the right sidebar section.
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+** Code Updates: **
+
+Folder Structure:
+- `main.js`: Handles routing for the home (`'/'`) and exploration (`'/Explore'`) routes.
+- `main.ejs`: Provides a basic HTML structure for generating dynamic web pages using a server-side templating engine.
+- `partials` folder:
+  - `left-sidebar.ejs`: Represents the left sidebar section of the web page.
+  - `navbar.ejs`: Represents the navigation bar section of the web page.
+  - `right-sidebar.ejs`: Represents the right sidebar section of the web page.
+- `app.js`: Sets up an Express.js server with EJS as the template engine and express-ejs-layouts to support the layout. It configures the static file service, prepares the template engine and layout middleware, defines routes, and starts the server on port 3000.
+- `package.json`: Provides information and dependencies for the "project-wep-safar" application. It includes libraries for authentication, rendering views, managing sessions, working with databases, etc.
+
+**Code Functionality:**
+
+`main.js`:
+- Sets up two routes: one for the home (`'/'`) and one for exploration (`'/Explore'`).
+- Handles GET requests for each route and returns the corresponding render form, allowing the application to serve dynamic content based on the requested route.
+
+`main.ejs`:
+- Provides a basic HTML structure for generating dynamic web pages using a server-side templating engine.
+- Includes metadata, external resources, reusable components, and a designated area for rendering dynamic content.
+- The templating engine replaces specific placeholders with actual content, resulting in a complete and customized web page.
+
+`partials` folder:
+- Contains reusable components of the web page: `left-sidebar.ejs`, `navbar.ejs`, and `right-sidebar.ejs`.
+
+`app.js`:
+- Sets up an Express.js server.
+- Configures EJS as the template engine and express-ejs-layouts to support layouts.
+- Configures the static file service to serve static files.
+- Defines routes and their corresponding handlers.
+- Starts the server on port 3000 to handle incoming requests and serve dynamic content using EJS templates and layouts.
+
+`package.json`:
+- Provides necessary information and dependencies for running and developing the "project-wep-safar" application.
+- Includes libraries for authentication, rendering views, managing sessions, working with databases, etc.
+- Defines scripts for running tests, starting the application, and running the development server with automatic restarts.
+
+**Additional Features:**
+- A dropdown menu has been added to the code.
+- CSS code has been written to make the site responsive, adjusting its size based on the type of device used, enhancing interactivity.
+
 
