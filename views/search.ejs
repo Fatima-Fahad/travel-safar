@@ -1,0 +1,58 @@
+<h1>Search Results</h1>
+
+<section class="articles">
+
+    <div class="post">
+
+        <% data.forEach(post => { %>
+
+        <div class="post-auther">
+            <!-- <a href="/"><img src="Image/woman.png" alt="image user" id="image-user-post"></a> -->
+            <a href="/post/ <%= post._id %>">
+                <div>
+                    <!-- The name of the person who wrote the post -->
+                    <h1><%= post.auther %></h1> 
+                    <!-- About him -->
+                    <small><%= post.about %></small>
+                    <!-- How long has it been published -->
+                    <small><%= post.createdAt.toDateString() %></small>
+                    <!-- updatedAt
+                    <small><%= post.updatedAt.toDateString() %></small> -->
+                </div>
+            </a>
+            
+            
+        </div>
+        <div class="post-content">
+            <h6><%= post.title %></h6>
+            <p>
+                <%= post.body %>
+            </p>
+            <!-- <img src="Image/IMG_1.jpg" width="100%"> -->
+        </div>
+        <div class="post-stats">
+            <div>
+                <!-- The number of users interactions on the post -->
+                <!-- <span>0     interactions</span> -->
+            </div>
+        </div>
+        <div class="post-activity">
+            <!-- <div>
+                <a href=""><img src="Image/clap.png" alt=""></a>
+            </div> 
+            <div>
+                <a href=""><img src="Image/hand.png" alt=""></a>
+            </div> 
+            <div>
+                <a href=""><img src="Image/thumbs-up 2.png" alt=""></a>
+            </div> 
+            <div>
+                <a href=""><img src="Image/share.png" alt=""></a>
+            </div> -->
+        </div>
+
+        <% }) %>
+
+    </div>
+
+</section>

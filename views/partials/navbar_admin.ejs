@@ -1,0 +1,66 @@
+
+    <!-- start navbar -->
+    <nav class="navbar">
+        <!-- navbar-left -->
+        <div class="navbar-left">
+            <!-- في الجهه اليسار راح يكون فيه لوقو والبحث -->
+            <a href="" class="logo"><img src="/Image/logo.png"></a>
+            
+                <%- include('../partials/search.ejs') %>
+            
+        </div>
+        <!-- navbar-center -->
+        <div class="navbar-center">
+            <ul>
+                <!-- ايقونات القائمة-->
+                <li><a href=""><img src="/Image/explore.png"><span>Explore</span></a></li>
+                <li><a href="/admin"><img src="/Image/user.png"><span>My account</span></a></li>
+                <li><a href=""><img src="/Image/chat.png"><span>Chat</span></a></li>
+                <li><a href=""><img src="/Image/bell.png"><span>Notifications</span></a></li>
+            </ul>
+        </div>
+        <!-- navbar-right -->
+        <div class="navbar-right">
+            
+                <img src="/Image/user-2.png" class="nav-profile-img" onclick="toggleMenu()">
+            
+        </div>
+        <!-- -------profile-drop-down-menu----------- -->
+        
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    <img src="/Image/user-2.png" class="nav-profile-img">
+                    <div>
+                        <!-- user name -->
+                        <h3>User Name</h3>
+                        
+                    </div>
+                </div>
+                <br>
+                <a href="" class="profile-menu-link">
+                    <img src="/Image/Setting 2.png" alt="">
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="/Image/question-mark-2.png" alt="">
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="" class="profile-menu-link">
+                    <img src="/Image/Night-mode 2.png" alt="">
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="/" class="profile-menu-link">
+                    <img src="/Image/logout.png" alt="">
+                    <p>Logout</p>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    
+    

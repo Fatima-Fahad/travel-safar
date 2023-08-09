@@ -425,6 +425,7 @@ a {
     border-radius: 50%;
     margin-right: 10px;
     margin-top: 5px;
+    box-shadow: 0 5px 10px #00281c41;
 }
 
 .post-auther h1 {
@@ -472,6 +473,10 @@ a {
 .post-activity img {
     width: 30px;
 }
+.pagination{
+    color: #f2c665;
+}
+
 
 /* ------------------------------------------------------ */
 /* right-sidebar */
@@ -646,7 +651,9 @@ a {
     /* -------------------------- */
 
     .main-content {
-        flex-basis: 60%;
+        flex-basis: 100%;
+        position: relative;
+        top: unset;
     }
 
     .create-post-input {
@@ -755,6 +762,8 @@ a {
 
     .main-content {
         flex-basis: 100%;
+        position: relative;
+        top: unset;
     }
 
     .create-post-input {
