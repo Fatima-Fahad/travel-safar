@@ -4,69 +4,25 @@
         <!-- navbar-left -->
         <div class="navbar-left">
             <!-- في الجهه اليسار راح يكون فيه لوقو والبحث -->
-            <a href="index.html" class="logo"><img src="Image/logo.png"></a>
-            <div class="search-box">
-                <img src="Image/search.png">
-                <input type="text" placeholder="search">
-            </div>
+            <a href="" class="logo"><img src="/Image/logo.png"></a>
+            
+                <%- include('../partials/search.ejs') %>
+            
         </div>
         <!-- navbar-center -->
         <div class="navbar-center">
             <ul>
                 <!-- ايقونات القائمة-->
-                <li><a href="/explore"><img src="Image/explore.png"><span>Explore</span></a></li>
-                <li><a href="/"><img src="Image/user.png"><span>My account</span></a></li>
-                <li><a href="#"><img src="Image/chat.png"><span>Chat</span></a></li>
-                <li><a href="#"><img src="Image/bell.png"><span>Notifications</span></a></li>
+                <li><a href="/explore"><img src="/Image/explore.png"><span>Explore</span></a></li>
+                <li><a href="/login"><img src="/Image/login-2.png"><span>Sign Up</span></a></li>
             </ul>
         </div>
         <!-- navbar-right -->
-        <div class="navbar-right">
-            <div class="online">
-                <img src="Image/woman.png" class="nav-profile-img" onclick="toggleMenu()">
-            </div>
-        </div>
+        
         <!-- -------profile-drop-down-menu----------- -->
         
-        <div class="profile-menu-wrap" id="profileMenu">
-            <div class="profile-menu">
-                <div class="user-info">
-                    <img src="Image/woman.png" class="nav-profile-img">
-                    <div>
-                        <!-- user name -->
-                        <h3>Fatima Altamimi</h3>
-                        
-                    </div>
-                </div>
-                <br>
-                <a href="#" class="profile-menu-link">
-                    <img src="Image/Setting 2.png" alt="">
-                    <p>Settings & Privacy</p>
-                    <span>></span>
-                </a>
-                <a href="#" class="profile-menu-link">
-                    <img src="Image/question-mark-2.png" alt="">
-                    <p>Help & Support</p>
-                    <span>></span>
-                </a>
-                <a href="#" class="profile-menu-link">
-                    <img src="Image/Night-mode 2.png" alt="">
-                    <p>Display & Accessibility</p>
-                    <span>></span>
-                </a>
-                <a href="#" class="profile-menu-link">
-                    <img src="Image/logout.png" alt="">
-                    <p>Logout</p>
-                    <span>></span>
-                </a>
-            </div>
-        </div>
+        
     </nav>
     <!-- navbar end -->
-    <script>
-        let profileMenu = document.getElementById('profileMenu');
-        function toggleMenu() {
-            profileMenu.classList.toggle('open-menu')
-        }
-    </script>
+    
     
