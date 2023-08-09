@@ -64,5 +64,8 @@ Folder Structure:
 **Additional Features:**
 - A dropdown menu has been added to the code.
 - CSS code has been written to make the site responsive, adjusting its size based on the type of device used, enhancing interactivity.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Latest updates**
 
+Pages linked together and databases created for the site
 
